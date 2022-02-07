@@ -1,0 +1,73 @@
+@import "../../common/colors.scss";
+
+.header{
+    background-color: $primary-color;
+    height: 72px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: $font-primary;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.user-image,.user-image img{
+    width: 38px;
+    height: 38px;
+}
+
+.search-bar{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    button{
+        background-color: #FFF;
+        padding: 0px 8px;
+        font-size: 18px;
+        cursor: pointer;
+        height: 38px;
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+        color:$font-primary;
+    }
+    input{
+        
+        font-size: 18px;
+        width: 100%;
+        padding: 5px 5px 10px;
+        height: 38px;
+        outline: none;
+        caret-color: $font-primary;
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+        
+}
+input::placeholder{
+    color:$font-primary;
+    text-align: center;
+    font-size: 14px;
+}
+input:hover::placeholder{
+    color: transparent;
+    transition: .8s;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+}
+}

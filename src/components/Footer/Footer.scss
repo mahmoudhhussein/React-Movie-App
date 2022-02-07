@@ -1,0 +1,15 @@
+@import "../../common/colors";
+
+.footer{
+    background-color: $primary-color;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:$font-primary;
+    flex-direction: column;
+    margin-top: 135px;
+}
+span a{
+    color:#FFFF;
+}
